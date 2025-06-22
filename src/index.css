@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playball&family=Sacramento&family=Satisfy&family=Kalam:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .font-handwriting {
+    font-family: 'Satisfy', cursive;
+  }
+  .font-hindi {
+    font-family: 'Kalam', cursive;
+  }
+}
