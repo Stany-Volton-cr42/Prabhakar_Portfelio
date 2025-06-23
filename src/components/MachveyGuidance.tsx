@@ -15,7 +15,7 @@ const MachveyGuidance: React.FC = () => {
                     <div className="w-full mb-10">                        <div className="flex flex-col items-center justify-center mb-6">
                         <div className="flex items-center justify-center gap-8">
                             <img
-                                src="/Machvey_Guidence_Logo.png"
+                                src="/img/Machvey_Guidence_Logo.png"
                                 alt="Machvey Guidance"
                                 className="w-32 h-32 object-contain"
                             />
