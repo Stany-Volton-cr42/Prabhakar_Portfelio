@@ -249,7 +249,7 @@ const AboutDetailed = () => {
                 className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl"
               >
                 <img
-                  src="/src/img/About_me2.png"
+                  src="/img/About_me2.png"
                   alt="Prabhakar Kumar Machvey"
                   className="w-full h-full object-cover"
                 />

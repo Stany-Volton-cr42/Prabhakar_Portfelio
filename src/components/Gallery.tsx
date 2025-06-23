@@ -28,7 +28,7 @@ const galleryData: GalleryItem[] = [
         category: "book-reviews",
         subCategory: "book-launch",
         description: "Book launch event with enthusiastic readers and supporters",
-        imageUrl: "/src/img/Uski Hasrat Hai Book Cover.png",
+        imageUrl: "/img/Uski Hasrat Hai Book Cover.png",
         date: "2024-03-15"
     },
     {
@@ -37,7 +37,7 @@ const galleryData: GalleryItem[] = [
         category: "educational",
         subCategory: "upsc",
         description: "Interactive session with successful UPSC aspirants",
-        imageUrl: "/src/img/students.svg",
+        imageUrl: "/img/students.svg",
         date: "2024-02-28"
     },
     {
@@ -46,7 +46,7 @@ const galleryData: GalleryItem[] = [
         category: "educational",
         subCategory: "workshops",
         description: "Hands-on workshop on leadership development",
-        imageUrl: "/src/img/pathways.svg",
+        imageUrl: "/img/pathways.svg",
         date: "2024-02-15"
     },
     {
@@ -55,7 +55,7 @@ const galleryData: GalleryItem[] = [
         category: "events",
         subCategory: "meetups",
         description: "Monthly community gathering and networking session",
-        imageUrl: "/src/img/partners.svg",
+        imageUrl: "/img/partners.svg",
         date: "2024-01-20"
     },
     {
@@ -64,7 +64,7 @@ const galleryData: GalleryItem[] = [
         category: "events",
         subCategory: "summits",
         description: "Annual youth leadership and development summit",
-        imageUrl: "/src/img/profile_img.png",
+        imageUrl: "/img/profile_img.png",
         date: "2024-01-10"
     }
 ];

@@ -15,7 +15,7 @@ const MachveyGuidance: React.FC = () => {
                     <div className="w-full mb-10">                        <div className="flex flex-col items-center justify-center mb-6">
                         <div className="flex items-center justify-center gap-8">
                             <img
-                                src="/src/img/Machvey_Guidence_Logo.png"
+                                src="/Machvey_Guidence_Logo.png"
                                 alt="Machvey Guidance"
                                 className="w-32 h-32 object-contain"
                             />
@@ -90,7 +90,7 @@ const MachveyGuidance: React.FC = () => {
                             viewport={{ once: true }}
                         >
                             <img
-                                src="/src/img/Cureer_path.png"
+                                src="/img/Cureer_path.png"
                                 alt="Career Path"
                                 className="w-full h-full object-cover"
                             />
@@ -147,7 +147,7 @@ const MachveyGuidance: React.FC = () => {
                         viewport={{ once: true }}
                     >
                         <img
-                            src="/src/img/partners.svg"
+                            src="/img/partners.svg"
                             alt="College Partners"
                             className="w-14 h-14 mx-auto mb-4"
                         />
@@ -163,7 +163,7 @@ const MachveyGuidance: React.FC = () => {
                         viewport={{ once: true }}
                     >
                         <img
-                            src="/src/img/pathways.svg"
+                            src="/img/pathways.svg"
                             alt="Career Pathways"
                             className="w-14 h-14 mx-auto mb-4"
                         />
@@ -179,7 +179,7 @@ const MachveyGuidance: React.FC = () => {
                         viewport={{ once: true }}
                     >
                         <img
-                            src="/src/img/students.svg"
+                            src="/img/students.svg"
                             alt="Students"
                             className="w-14 h-14 mx-auto mb-4"
                         />

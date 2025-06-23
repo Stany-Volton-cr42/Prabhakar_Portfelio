@@ -93,7 +93,7 @@ const Work = () => {
                     <div className="relative">
                       <div className="w-64 h-80 sm:w-72 sm:h-96 md:w-[24rem] md:h-[32rem] lg:w-[28rem] lg:h-[36rem] rounded-lg shadow-2xl overflow-hidden relative">
                         <img
-                          src="/src/img/Uski Hasrat Hai Book Cover.png"
+                          src="/img/Uski Hasrat Hai Book Cover.png"
                           alt="Uski Hasrat Hai Book Cover"
                           className="w-full h-full object-contain bg-gradient-to-br from-blue-200 to-emerald-200"
                         />

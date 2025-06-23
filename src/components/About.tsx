@@ -82,7 +82,7 @@ const About = () => {
               className="relative aspect-[3/4] rounded-2xl shadow-xl overflow-hidden"
             >
               <img
-                src="/src/img/About_me_img.png"
+                src="/img/About_me_img.png"
                 alt="Prabhakar Kumar Machvey"
                 className="w-full h-full object-cover"
               />

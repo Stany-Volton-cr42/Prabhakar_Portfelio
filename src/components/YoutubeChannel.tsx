@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { Youtube } from 'lucide-react';
-import profileImage from '../img/Youtube_channels_profile.jpg';
 
 
 const YoutubeChannel = () => {
@@ -56,11 +55,11 @@ const YoutubeChannel = () => {
       description: "Exploring Gandhian principles and their modern relevance",
     },
   ];
-  return (    
+  return (
     <section id="youtube" className="py-12 md:py-16 lg:py-20 relative overflow-hidden">
       {/* Base light gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-red-50 via-gray-50 to-red-50"></div>
-      
+
       {/* YouTube-themed layered gradients */}
       <div className="absolute inset-0" style={{
         backgroundImage: `
@@ -73,8 +72,8 @@ const YoutubeChannel = () => {
       }}></div>
 
       {/* Animated gradient blobs */}
-      <motion.div 
-        animate={{ 
+      <motion.div
+        animate={{
           scale: [1, 1.2, 1],
           rotate: [0, 90, 0],
           y: [0, 50, 0]
@@ -83,7 +82,7 @@ const YoutubeChannel = () => {
         className="absolute -top-20 -left-20 w-96 h-96 bg-gradient-to-br from-red-200/30 to-rose-300/30 rounded-full mix-blend-soft-light filter blur-3xl opacity-50"
       />
       <motion.div
-        animate={{ 
+        animate={{
           scale: [1.2, 1, 1.2],
           rotate: [90, 0, 90],
           x: [0, 30, 0]
@@ -107,7 +106,7 @@ const YoutubeChannel = () => {
               YouTube Channel
             </h2>
           </div>
-          <motion.div 
+          <motion.div
             initial={{ width: 0 }}
             animate={{ width: "100%" }}
             transition={{ duration: 1, delay: 0.5 }}
@@ -119,7 +118,7 @@ const YoutubeChannel = () => {
         </motion.div>
 
         {/* 2. Channel UI Section */}
-        <motion.div 
+        <motion.div
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -132,7 +131,7 @@ const YoutubeChannel = () => {
               className="w-24 h-24 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white shadow-lg flex-shrink-0"
             >
               <img
-                src={profileImage}
+                src="/img/Youtube_channels_profile.jpg"
                 alt="Channel Avatar"
                 className="w-full h-full object-cover"
               />
@@ -169,10 +168,10 @@ const YoutubeChannel = () => {
               <div className="space-y-3 mt-6">
                 <p className="text-gray-700 font-medium">{channelStats.description}</p>
                 <div className="flex flex-wrap gap-4 text-sm">
-                  <a 
-                    href={`https://${channelStats.channelUrl}`} 
+                  <a
+                    href={`https://${channelStats.channelUrl}`}
                     className="text-blue-600 hover:text-blue-700 hover:underline"
-                    target="_blank" 
+                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     {channelStats.channelUrl}
@@ -186,7 +185,7 @@ const YoutubeChannel = () => {
           {/* Channel Navigation */}
           <div className="mt-8 border-b border-gray-200">
             <div className="flex gap-8 overflow-x-auto">
-              <a 
+              <a
                 href="https://www.youtube.com/@prabhakarkumarmachvey/featured"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -194,7 +193,7 @@ const YoutubeChannel = () => {
               >
                 Home
               </a>
-              <a 
+              <a
                 href="https://www.youtube.com/@prabhakarkumarmachvey/videos"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -202,7 +201,7 @@ const YoutubeChannel = () => {
               >
                 Videos
               </a>
-              <a 
+              <a
                 href="https://www.youtube.com/@prabhakarkumarmachvey/shorts"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -210,7 +209,7 @@ const YoutubeChannel = () => {
               >
                 Shorts
               </a>
-              <a 
+              <a
                 href="https://www.youtube.com/@prabhakarkumarmachvey/playlists"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -218,7 +217,7 @@ const YoutubeChannel = () => {
               >
                 Playlists
               </a>
-              <a 
+              <a
                 href="https://www.youtube.com/@prabhakarkumarmachvey/community"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -249,7 +248,7 @@ const YoutubeChannel = () => {
                 className="group relative"
               >
                 <motion.div
-                  whileHover={{ 
+                  whileHover={{
                     scale: 1.02,
                     boxShadow: "0 20px 30px rgba(0,0,0,0.1)"
                   }}

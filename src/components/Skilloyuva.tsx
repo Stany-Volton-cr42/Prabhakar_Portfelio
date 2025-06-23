@@ -1,8 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { BookOpen, Users, Star, ArrowRight } from 'lucide-react';
-import skilloYuvaLogo from '../img/SkilloYuva_logo.png';
-import founderImage from '../img/founder.jpg';
 
 const Skilloyuva = () => {
   const courses = [
@@ -12,7 +10,7 @@ const Skilloyuva = () => {
       rating: 4.7,
       enrolled: '3.1K',
       duration: '25h',
-      image: '/src/img/App Screenshot3.png'
+      image: '/img/App Screenshot3.png'
     },
     {
       title: 'Effective Teaching Strategies',
@@ -20,7 +18,7 @@ const Skilloyuva = () => {
       rating: 4.7,
       enrolled: '3.1K',
       duration: '25h',
-      image: '/src/img/App Screenshot4.png'
+      image: '/img/App Screenshot4.png'
     },
     {
       title: 'Mastering Office Productivity Tools',
@@ -28,7 +26,7 @@ const Skilloyuva = () => {
       rating: 4.7,
       enrolled: '3.1K',
       duration: '25h',
-      image: '/src/img/App screenshot.png'
+      image: '/img/App screenshot.png'
     },
     {
       title: 'Advanced Data Analytics',
@@ -36,7 +34,7 @@ const Skilloyuva = () => {
       rating: 4.8,
       enrolled: '2.8K',
       duration: '30h',
-      image: '/src/img/App Screenshot3.png'
+      image: '/img/App Screenshot3.png'
     },
     {
       title: 'Digital Marketing Essentials',
@@ -44,7 +42,7 @@ const Skilloyuva = () => {
       rating: 4.6,
       enrolled: '4.2K',
       duration: '20h',
-      image: '/src/img/App Screenshot4.png'
+      image: '/img/App Screenshot4.png'
     },
     {
       title: 'Web Development Fundamentals',
@@ -52,7 +50,7 @@ const Skilloyuva = () => {
       rating: 4.9,
       enrolled: '5.5K',
       duration: '35h',
-      image: '/src/img/App screenshot.png'
+      image: '/img/App screenshot.png'
     }
   ];
 
@@ -63,7 +61,7 @@ const Skilloyuva = () => {
       <div className="container mx-auto px-8 sm:px-12 md:px-16 lg:px-20 xl:px-24 2xl:px-32 relative z-10">
         {/* Logo and Gradient Line */}
         <div className="flex flex-col items-center mb-16">
-          <img src={skilloYuvaLogo} alt="SkilloYuva Logo" className="h-16 mb-4" />
+          <img src="/img/SkilloYuva_logo.png" alt="SkilloYuva Logo" className="h-16 mb-4" />
           <div className="h-1 w-48 bg-gradient-to-r from-orange-400 to-teal-500 rounded-full"></div>
         </div>
 
@@ -80,7 +78,7 @@ const Skilloyuva = () => {
             <div className="relative">
               <div className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full overflow-hidden shadow-2xl border-4 border-white">
                 <img
-                  src={founderImage}
+                  src="/img/founder.jpg"
                   alt="Founder"
                   className="w-full h-full object-cover"
                 />

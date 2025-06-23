@@ -5,10 +5,10 @@ import { Youtube } from 'lucide-react';
 const EducationalPlatforms = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const images = [
-    '/src/img/App screenshot.png',
-    '/src/img/App screenshot2.png',
-    '/src/img/App Screenshot3.png',
-    '/src/img/App Screenshot4.png'
+    '/img/App screenshot.png',
+    '/img/App screenshot2.png',
+    '/img/App Screenshot3.png',
+    '/img/App Screenshot4.png'
   ];
 
   // Auto-advance carousel
@@ -60,7 +60,7 @@ const EducationalPlatforms = () => {
                 className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden border-4 border-white shadow-lg flex-shrink-0"
               >
                 <img
-                  src="/src/img/DEEP CLASSES MACHVEY.png"
+                  src="/img/DEEP CLASSES MACHVEY.png"
                   alt="Deep Classes Machvey"
                   className="w-full h-full object-cover"
                 />
@@ -178,7 +178,7 @@ const EducationalPlatforms = () => {
                   className="relative"
                 >
                   <img
-                    src="/src/img/DEEP CLASSES MACHVEY.png"
+                    src="/img/DEEP CLASSES MACHVEY.png"
                     alt="Machvey App Logo"
                     className="w-32 h-32 rounded-2xl shadow-lg"
                   />
@@ -243,7 +243,7 @@ const EducationalPlatforms = () => {
                 </div>                {/* QR Code */}
                 <div className="flex-shrink-0 ml-44 -mt-12">
                   <img
-                    src="/src/img/Machey app.png"
+                    src="/img/Machey app.png"
                     alt="Download Machvey App"
                     className="w-48 h-64 object-contain"
                   />

@@ -79,7 +79,7 @@ const renderBlogCard = (post: typeof blogPosts[0]) => (  <div className="flex fl
         className="absolute inset-0 w-full h-full object-cover transition-all duration-500 group-hover:scale-105"
         onError={(e) => {
           e.currentTarget.onerror = null;
-          e.currentTarget.src = '/src/img/Machvey_profile_pic.jpg';
+          e.currentTarget.src = '/img/Machvey_profile_pic.jpg';
         }}
       />
       <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/70 via-black/40 to-transparent z-20">

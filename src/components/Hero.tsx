@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowDown, Download } from 'lucide-react';
-import profileImage from '../img/profile_img.png';
 
 const Hero = () => {
   const handleContactClick = () => {
@@ -73,7 +72,7 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="text-base sm:text-lg md:text-xl mb-3 text-emerald-300 font-medium"
             >
-              
+
               शिक्षा के क्षेत्र में परिवर्तनकारी व्यक्तित्व | दीप क्लासेज माचवे संस्थापक
             </motion.h3>
 
@@ -142,8 +141,8 @@ const Hero = () => {
               className="relative"
             >
               <div className="w-70 h-70 sm:w-90 sm:h-90 lg:w-[500px] lg:h-[500px] rounded-full overflow-hidden border-4 border-white/10 shadow-2xl">
-                <img 
-                  src={profileImage}
+                <img
+                  src="/img/profile_img.png"
                   alt="Prabhakar Kumar Machvey"
                   className="w-full h-full object-cover object-center"
                 />
