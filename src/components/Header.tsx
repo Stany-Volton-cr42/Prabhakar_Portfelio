@@ -32,19 +32,18 @@ const Header = () => {
       gradient: 'from-red-600/[0.15] via-purple-600/[0.15] to-blue-600/[0.15]',
       hoverGradient: 'from-red-600 via-purple-600 to-blue-600',
       dropdown: [
-        { label: 'Book', href: '#deep-classes' },
-        { label: 'Blogs', href: '#main-channel' },
+        { label: 'Book', href: '#work' },
+        { label: 'Blogs', href: '#blog' },
         { label: 'Movie review', href: '#machvey-app' }
       ]
     },
     {
-      href: '#courses',
+      href: '#skilloyuva',
       label: 'Courses',
       gradient: 'from-blue-900/[0.15] via-blue-700/[0.15] to-emerald-600/[0.15]',
       hoverGradient: 'from-blue-900 via-blue-700 to-emerald-600',
       dropdown: [
-        { label: 'Handwriting', href: '#handwriting' },
-        { label: 'Other Courses', href: '#other-courses' }
+        { label: 'All Courses', href: '#skilloyuva' }
       ]
     },
     {
@@ -58,12 +57,12 @@ const Header = () => {
       ]
     },
     {
-      href: '#book',
+      href: '#work',
       label: 'Book',
       gradient: 'from-blue-600/[0.15] via-purple-600/[0.15] to-green-600/[0.15]',
       hoverGradient: 'from-blue-600 via-purple-600 to-green-600',
       dropdown: [
-        { label: 'उसकी हसरत है।', href: '#uski-hasrat' }
+        { label: 'उसकी हसरत है।', href: '#work' }
       ]
     },
     {
